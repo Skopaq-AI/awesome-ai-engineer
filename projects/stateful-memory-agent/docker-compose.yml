@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  memory-agent:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - APP_NAME=Stateful Memory Agent
+    restart: unless-stopped

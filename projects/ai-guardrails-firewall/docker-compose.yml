@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  guardrails:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - APP_NAME=AI Guardrails Firewall
+    restart: unless-stopped
