@@ -1,58 +1,70 @@
 # Contributing to Awesome AI Engineer
 
-Thank you for your interest in contributing! This document provides guidelines for adding resources to this curated list.
+Thank you for your interest in contributing! This document provides clear guidelines for proposing resources, categories, and fixes to this curated roadmap.
 
 ## What Makes a Good Addition?
 
-- **High quality** — The resource should be well-regarded in the AI/ML community
-- **Actively maintained** — Prefer resources updated within the last 12 months
-- **Unique value** — It should offer something not already covered by existing entries
-- **Accessible** — Free or open-source is preferred; paid resources are OK if exceptional
+- **High Quality & Depth** — The resource should be well-regarded, rigorous, and relevant for professional AI Engineers and Systems Architects.
+- **Actively Maintained** — Prefer tools and frameworks updated regularly with modern LLM/agent paradigms.
+- **Unique Value** — It should solve a distinct architectural, operational, or algorithmic problem not already covered.
+- **Accessible** — Free or open-source resources are prioritized; exceptional paid books/tools are welcomed if industry-standard.
 
 ## How to Contribute
 
 ### Adding a Resource
 
-1. Fork this repository
-2. Edit `README.md` to add your resource in the appropriate section
-3. Follow the existing table format:
+1. **Fork** this repository.
+2. Edit `README.md` in the appropriate category.
+3. Match the **exact column structure** of the target table. Examples:
 
-```markdown
-| [Resource Name](https://link.com) | Brief one-line description | Category/Level |
-```
+   **For Frameworks & Orchestrators (4 columns):**
+   ```markdown
+   | **Name** | Key Strengths & Use Cases | Maintainer / Creator | [Link](https://...) |
+   ```
 
-4. Submit a pull request with:
-   - A clear title (e.g., "Add LangGraph tutorial to Agent Frameworks")
-   - Brief explanation of why this resource belongs here
+   **For Infrastructure, Gateways & Tools (3 columns):**
+   ```markdown
+   | **Tool** | Purpose & Core Capabilities | [Link](https://...) |
+   ```
 
-### Suggesting a New Category
+   **For Architecture Patterns & System Design (3 columns):**
+   ```markdown
+   | **Pattern** | When to Use | Reference / Project Example |
+   ```
 
-If you think a new category is needed:
+   **For Books & Publications (3 columns):**
+   ```markdown
+   | **Title** | Author | Why It Matters |
+   ```
 
-1. Open an issue describing the category
-2. Include 3-5 resources that would fit in it
-3. Explain why existing categories don't cover it
+4. Submit a pull request with a descriptive title (e.g., `Add DSPy to Prompt Optimization & Compilers`).
+
+### Proposing a New Category
+
+If you believe a vital area of AI engineering is missing:
+1. Open an issue using the [Category Proposal Template](.github/ISSUE_TEMPLATE/new_category.yml).
+2. Detail why existing categories do not cover the topic.
+3. Suggest an initial set of 3–5 representative, high-quality resources.
 
 ### Reporting Broken Links
 
-Open an issue with:
-- The broken link URL
-- The section it's in
-- A suggested replacement (if you have one)
+If you spot a 404, relocated repository, or broken anchor:
+1. Open an issue via the [Broken Link Template](.github/ISSUE_TEMPLATE/broken_link.yml), or
+2. Submit a direct pull request with the updated URL.
 
-## Guidelines
+## Quality & Editorial Guidelines
 
-- **One resource per pull request** for easy review
-- **No self-promotion** — you can suggest your own work, but it should genuinely be a top resource
-- **No affiliate links**
-- **English language** resources only (for now)
-- **Check for duplicates** before submitting
-- Keep descriptions **concise** (one line, under 100 characters)
+- **One resource per pull request** whenever possible to accelerate review.
+- **No pure self-promotion** — community value and technical rigor must be proven.
+- **No affiliate or referral links**.
+- **Check for duplicates** using GitHub search or local grep before submitting.
+- Keep descriptions **concise** (one crisp sentence, typically under 120 characters).
+- Prefer **HTTPS** links over plain HTTP.
 
 ## Code of Conduct
 
-Be respectful and constructive. We're building a community resource together.
+Please review and adhere to our [Code of Conduct](CODE_OF_CONDUCT.md). We are committed to fostering an inclusive, welcoming community.
 
 ## Questions?
 
-Open an issue with the `question` label.
+Feel free to open a discussion or ask questions in our repository issues.

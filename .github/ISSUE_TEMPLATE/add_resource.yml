@@ -1,0 +1,59 @@
+name: ➕ Suggest a Resource
+description: Propose a new resource, tool, paper, or course to be added to the list
+title: "[Resource]: "
+labels: ["resource", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a resource to **Awesome AI Engineer**! Please ensure it meets our quality guidelines (actively maintained, high community impact, accurate descriptions).
+  - type: input
+    id: resource_name
+    attributes:
+      label: Resource Name
+      placeholder: e.g., Instructor
+    validations:
+      required: true
+  - type: input
+    id: resource_url
+    attributes:
+      label: Resource URL
+      placeholder: https://github.com/jxnl/instructor
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Target Category
+      options:
+        - "Agent Frameworks & Tools"
+        - "Structured Outputs & Constrained Decoding"
+        - "Reasoning & Prompt Optimization"
+        - "Agent Memory & State"
+        - "AI Gateways & Routing"
+        - "MLOps & Model Serving"
+        - "Runtime Guardrails & Security"
+        - "Vector Databases & Retrieval"
+        - "Cloud & Kubernetes for AI"
+        - "Books, Podcasts & Newsletters"
+        - "Other"
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Brief Description
+      placeholder: One concise line explaining what makes this tool indispensable for AI engineers.
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Quality Checklist
+      options:
+        - label: I have verified this resource is actively maintained and high-quality.
+          required: true
+        - label: I checked that this resource is not already listed in `README.md`.
+          required: true
+        - label: This is not pure self-promotion without broad community value.
+          required: true

@@ -1,0 +1,35 @@
+name: 🔗 Report a Broken Link
+description: Report a 404, moved page, or outdated URL in the repository
+title: "[Broken Link]: "
+labels: ["bug", "links"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Help us keep this directory fresh and accurate by reporting broken, redirected, or dead links.
+  - type: input
+    id: broken_url
+    attributes:
+      label: Broken URL
+      placeholder: https://example.com/broken-page
+    validations:
+      required: true
+  - type: input
+    id: section
+    attributes:
+      label: Section in README
+      placeholder: e.g., Model Serving / vLLM
+    validations:
+      required: true
+  - type: input
+    id: replacement_url
+    attributes:
+      label: Suggested Replacement URL (if known)
+      placeholder: https://example.com/new-working-url
+    validations:
+      required: false
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional Context
+      placeholder: Any details about why the link failed (404, paywall, repo archived, etc.)

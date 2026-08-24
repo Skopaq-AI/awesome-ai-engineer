@@ -1,0 +1,33 @@
+name: 💡 Propose a New Category
+description: Suggest a new structural section or technical track for Awesome AI Engineer
+title: "[Category Proposal]: "
+labels: ["enhancement", "architecture"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        As the AI engineering landscape advances, we welcome suggestions for new categories and emerging technical paradigms.
+  - type: input
+    id: category_title
+    attributes:
+      label: Proposed Category Title
+      placeholder: e.g., On-Device SLMs & Edge Inference
+    validations:
+      required: true
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Why is this needed?
+      placeholder: Explain why existing categories cannot adequately cover this topic.
+    validations:
+      required: true
+  - type: textarea
+    id: sample_resources
+    attributes:
+      label: Initial 3–5 Recommended Resources
+      placeholder: |
+        - [Resource 1](https://...) - Description
+        - [Resource 2](https://...) - Description
+        - [Resource 3](https://...) - Description
+    validations:
+      required: true
