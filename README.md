@@ -3,7 +3,7 @@
 > A curated roadmap and resource collection for leveling up from **AI Engineer** to **AI Systems Architect** — with 13 production-ready portfolio projects, enterprise architecture patterns, and modern 2025–2026 LLM & agent engineering paradigms.
 
 <p align="center">
-  <img src="assets/banner.svg" alt="Awesome AI Engineer" width="800">
+  <img src="assets/banner.jpg" alt="Awesome AI Engineer" width="100%">
 </p>
 
 <p align="center">
@@ -39,7 +39,13 @@ The AI engineering landscape is evolving fast. Beyond basic prompting and wrappe
 
 ## 🗺️ Career Roadmap
 
-```
+<p align="center">
+  <img src="assets/career-roadmap.jpg" alt="AI Engineer to Systems Architect Career Progression Roadmap" width="100%">
+</p>
+
+<details>
+<summary><b>📖 Click to view Text & Level-by-Level Breakdown</b></summary>
+<br>
 ┌─────────────────────────────────────────────────────────────────────┐
 │                    AI ENGINEER → SYSTEMS ARCHITECT                  │
 ├─────────────────────────────────────────────────────────────────────┤
@@ -78,6 +84,7 @@ The AI engineering landscape is evolving fast. Beyond basic prompting and wrappe
 │                                                                     │
 └─────────────────────────────────────────────────────────────────────┘
 ```
+</details>
 
 ---
 
@@ -254,6 +261,10 @@ Production AI architectures implement unified gateways for rate-limiting, failov
 
 ## ⚙️ MLOps, Serving & Infrastructure
 
+<p align="center">
+  <img src="assets/production-ai-stack.jpg" alt="The Modern Production AI Systems Architecture Stack" width="100%">
+</p>
+
 ### High-Throughput Model Serving
 
 | Tool | Purpose | Link |
@@ -291,6 +302,10 @@ Production AI architectures implement unified gateways for rate-limiting, failov
 ## 🏗️ System Design for AI
 
 ### Architecture Patterns
+
+<p align="center">
+  <img src="assets/agent-patterns.jpg" alt="AI Agent Architecture Patterns in Production" width="100%">
+</p>
 
 | Pattern | When to Use | Reference / Project Example |
 |---------|-------------|-----------------------------|
