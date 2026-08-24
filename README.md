@@ -1,6 +1,6 @@
 # Awesome AI Engineer [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
 
-> A curated roadmap and resource collection for leveling up from **AI Engineer** to **AI Systems Architect** — with 13 production-ready portfolio projects, enterprise architecture patterns, and modern 2025–2026 LLM & agent engineering paradigms.
+> A curated roadmap and resource collection for leveling up from **AI Engineer** to **AI Systems Architect** — with 18 production-ready portfolio projects, enterprise architecture patterns, and modern 2025–2026 LLM & agent engineering paradigms.
 
 <p align="center">
   <img src="assets/banner.jpg" alt="Awesome AI Engineer" width="100%">
@@ -31,7 +31,7 @@
 The AI engineering landscape is evolving fast. Beyond basic prompting and wrapper scripts, modern AI systems require rigorous architecture, stateful memory, constrained decoding, test-time compute, resilient gateways, and automated evaluation. This repo cuts through the noise with:
 
 - **A clear career progression** from junior AI engineer to enterprise systems architect
-- **13 hands-on portfolio projects** covering LLMs, multi-agent systems, RAG, and protocols
+- **18 hands-on portfolio projects** covering LLMs, multi-agent systems, RAG, gateways, and protocols
 - **Curated 2025–2026 production stack** — structured outputs, prompt compilers, reasoning models, and realtime agents
 - **Enterprise architecture focus** — production patterns, latency/cost routing, and safety guardrails
 
@@ -72,7 +72,7 @@ The AI engineering landscape is evolving fast. Beyond basic prompting and wrappe
 │  ├── Kubernetes for AI workloads & GPU orchestration                │
 │  ├── Observability, tracing & evaluation (LangSmith, Phoenix)       │
 │  ├── Protocol design & tool standards (MCP, A2A, UCP)               │
-│  └── Projects: #8 #9 #10                                           │
+│  └── Projects: #9 #10 #11 #12 #13                                   │
 │                                                                     │
 │  LEVEL 4: AI Systems Architect                                      │
 │  ├── Enterprise multi-agent system design at scale                  │
@@ -80,7 +80,7 @@ The AI engineering landscape is evolving fast. Beyond basic prompting and wrappe
 │  ├── Context caching economics & KV-cache optimization              │
 │  ├── Runtime guardrails, security & defense against injection       │
 │  ├── Cross-framework interoperability & model cascading             │
-│  └── Projects: #11 #12 #13                                         │
+│  └── Projects: #14 #15 #16 #17 #18                                  │
 │                                                                     │
 └─────────────────────────────────────────────────────────────────────┘
 ```
@@ -90,41 +90,46 @@ The AI engineering landscape is evolving fast. Beyond basic prompting and wrappe
 
 ## 🚀 Portfolio Projects
 
-13 production-ready projects with Docker setup, tests, CI/CD, and Kubernetes manifests.
+18 production-ready projects covering foundational LLMs to enterprise-scale AI architecture, each equipped with Docker setup, automated tests, CI/CD, and Kubernetes manifests.
 
-### Foundation (Level 1-2)
-
-| # | Project | What You'll Build | Key Skills | Repo |
-|---|---------|-------------------|------------|------|
-| 1 | **LLM Playground** | Interactive tokenization & generation explorer | BPE tokenization, sampling strategies, temperature | [![GitHub](https://img.shields.io/badge/-Repo-181717?logo=github)](https://github.com/samuelvinay91/llm-playground) |
-| 2 | **Customer Support Chatbot** | Production chatbot with fine-tuning | LoRA/PEFT, prompt engineering, evaluation | [![GitHub](https://img.shields.io/badge/-Repo-181717?logo=github)](https://github.com/samuelvinay91/customer-support-chatbot) |
-| 3 | **Ask-the-Web Agent** | Perplexity-like search & synthesis agent | LangGraph, tool use, citation generation | [![GitHub](https://img.shields.io/badge/-Repo-181717?logo=github)](https://github.com/samuelvinay91/ask-the-web-agent) |
-| 4 | **Deep Research** | Multi-strategy reasoning engine | Chain-of-Thought, Tree-of-Thought, inference scaling | [![GitHub](https://img.shields.io/badge/-Repo-181717?logo=github)](https://github.com/samuelvinay91/deep-research) |
-| 5 | **Image Generation** | Multi-provider image service | Diffusion models, DALL-E, FLUX, Stable Diffusion | [![GitHub](https://img.shields.io/badge/-Repo-181717?logo=github)](https://github.com/samuelvinay91/image-generation) |
-| 6 | **Capstone Multi-Agent** | Supervisor-pattern agent platform | Multi-agent orchestration, task decomposition | [![GitHub](https://img.shields.io/badge/-Repo-181717?logo=github)](https://github.com/samuelvinay91/capstone-multiagent) |
-| 7 | **Agent RAG** | Hierarchical RAG system | Single/multi/hierarchical retrieval, query decomposition | [![GitHub](https://img.shields.io/badge/-Repo-181717?logo=github)](https://github.com/samuelvinay91/agent-rag) |
-| 8 | **MCP & A2A** | Protocol implementation | MCP SDK, A2A protocol, AgentCards | [![GitHub](https://img.shields.io/badge/-Repo-181717?logo=github)](https://github.com/samuelvinay91/mcp-a2a) |
-
-### Protocol & Commerce (Level 3)
+### Foundation & Agent Workflows (Level 1-2)
 
 | # | Project | What You'll Build | Key Skills | Repo |
 |---|---------|-------------------|------------|------|
-| 9 | **UCP Merchant Server** | Commerce protocol platform | Checkout state machine, AP2 verification, MCP bindings | [![GitHub](https://img.shields.io/badge/-Repo-181717?logo=github)](https://github.com/samuelvinay91/ucp-merchant-server) |
-| 10 | **UCP Shopping Agent** | AI shopping assistant | Multi-merchant discovery, comparison, LangGraph | [![GitHub](https://img.shields.io/badge/-Repo-181717?logo=github)](https://github.com/samuelvinay91/ucp-shopping-agent) |
+| 1 | **LLM Playground** | Interactive tokenization & generation explorer | BPE tokenization, sampling strategies, temperature | [![GitHub](https://img.shields.io/badge/-Repo-181717?logo=github)](https://github.com/Skopaq-AI/llm-playground) |
+| 2 | **Customer Support Chatbot** | Production chatbot with fine-tuning & evaluation | LoRA/PEFT, prompt engineering, evaluation metrics | [![GitHub](https://img.shields.io/badge/-Repo-181717?logo=github)](https://github.com/Skopaq-AI/customer-support-chatbot) |
+| 3 | **Ask-the-Web Agent** | Perplexity-like search & synthesis agent | LangGraph, tool use, citation generation | [![GitHub](https://img.shields.io/badge/-Repo-181717?logo=github)](https://github.com/Skopaq-AI/ask-the-web-agent) |
+| 4 | **Deep Research** | Multi-strategy reasoning engine | Chain-of-Thought, Tree-of-Thought, inference scaling | [![GitHub](https://img.shields.io/badge/-Repo-181717?logo=github)](https://github.com/Skopaq-AI/deep-research) |
+| 5 | **Image Generation** | Multi-provider image service | Diffusion models, DALL-E, FLUX, Stable Diffusion | [![GitHub](https://img.shields.io/badge/-Repo-181717?logo=github)](https://github.com/Skopaq-AI/image-generation) |
+| 6 | **Capstone Multi-Agent** | Supervisor-pattern agent platform | Multi-agent orchestration, task decomposition | [![GitHub](https://img.shields.io/badge/-Repo-181717?logo=github)](https://github.com/Skopaq-AI/capstone-multiagent) |
+| 7 | **Agent RAG** | Hierarchical RAG system | Single/multi/hierarchical retrieval, query decomposition | [![GitHub](https://img.shields.io/badge/-Repo-181717?logo=github)](https://github.com/Skopaq-AI/agent-rag) |
+| 8 | **MCP & A2A** | Protocol implementation | MCP SDK, A2A protocol, AgentCards | [![GitHub](https://img.shields.io/badge/-Repo-181717?logo=github)](https://github.com/Skopaq-AI/mcp-a2a) |
 
-### Enterprise Frameworks (Level 4)
+### Platform, Gateways & Realtime Streaming (Level 3)
 
 | # | Project | What You'll Build | Key Skills | Repo |
 |---|---------|-------------------|------------|------|
-| 11 | **Compliance Audit Agents** | Regulatory compliance system | Microsoft Agent Framework, graph workflows, middleware | [![GitHub](https://img.shields.io/badge/-Repo-181717?logo=github)](https://github.com/samuelvinay91/compliance-audit-agents) |
-| 12 | **Incident Response ADK** | IT incident orchestrator | Google ADK / Genkit, Sequential/Parallel/Loop agents | [![GitHub](https://img.shields.io/badge/-Repo-181717?logo=github)](https://github.com/samuelvinay91/incident-response-adk) |
-| 13 | **Contract Lifecycle Crew** | Contract management platform | CrewAI, role-based agents, Flow orchestration | [![GitHub](https://img.shields.io/badge/-Repo-181717?logo=github)](https://github.com/samuelvinay91/contract-lifecycle-crew) |
+| 9 | **UCP Merchant Server** | Commerce protocol platform | Checkout state machine, AP2 verification, MCP bindings | [![GitHub](https://img.shields.io/badge/-Repo-181717?logo=github)](https://github.com/Skopaq-AI/ucp-merchant-server) |
+| 10 | **UCP Shopping Agent** | AI shopping assistant | Multi-merchant discovery, comparison, LangGraph | [![GitHub](https://img.shields.io/badge/-Repo-181717?logo=github)](https://github.com/Skopaq-AI/ucp-shopping-agent) |
+| 11 | **Enterprise AI Gateway** | Resilient multi-provider routing gateway | LiteLLM, RouteLLM, semantic caching, rate limiting | [![GitHub](https://img.shields.io/badge/-Repo-181717?logo=github)](https://github.com/Skopaq-AI/enterprise-ai-gateway) |
+| 12 | **Realtime Voice Agent** | Sub-second bidirectional voice & multimodal agent | WebRTC / WebSockets, streaming STT/TTS, tool interrupts | [![GitHub](https://img.shields.io/badge/-Repo-181717?logo=github)](https://github.com/Skopaq-AI/realtime-voice-agent) |
+| 13 | **Stateful Memory Agent** | Tiered memory agent with entity knowledge graph | Letta/Mem0 paradigms, episodic recall, semantic store | [![GitHub](https://img.shields.io/badge/-Repo-181717?logo=github)](https://github.com/Skopaq-AI/stateful-memory-agent) |
+
+### Enterprise Systems, Compilers & Governance (Level 4)
+
+| # | Project | What You'll Build | Key Skills | Repo |
+|---|---------|-------------------|------------|------|
+| 14 | **DSPy Prompt Optimizer** | Self-improving declarative prompt compiler | DSPy MIPROv2, teleprompters, metric optimization | [![GitHub](https://img.shields.io/badge/-Repo-181717?logo=github)](https://github.com/Skopaq-AI/dspy-prompt-optimizer) |
+| 15 | **AI Guardrails Firewall** | Zero-trust GenAI security & injection defense | NeMo Guardrails, Llama Guard 3, PII redaction | [![GitHub](https://img.shields.io/badge/-Repo-181717?logo=github)](https://github.com/Skopaq-AI/ai-guardrails-firewall) |
+| 16 | **Compliance Audit Agents** | Regulatory compliance audit system | Microsoft Agent Framework, graph workflows, middleware | [![GitHub](https://img.shields.io/badge/-Repo-181717?logo=github)](https://github.com/Skopaq-AI/compliance-audit-agents) |
+| 17 | **Incident Response ADK** | IT incident orchestrator | Google ADK / Genkit, Sequential/Parallel/Loop agents | [![GitHub](https://img.shields.io/badge/-Repo-181717?logo=github)](https://github.com/Skopaq-AI/incident-response-adk) |
+| 18 | **Contract Lifecycle Crew** | Contract management platform | CrewAI, role-based agents, Flow orchestration | [![GitHub](https://img.shields.io/badge/-Repo-181717?logo=github)](https://github.com/Skopaq-AI/contract-lifecycle-crew) |
 
 ### Quick Start (Any Project)
 
 ```bash
-# Clone project repository
-git clone https://github.com/samuelvinay91/<project-name>.git
+# Clone any project repository
+git clone https://github.com/Skopaq-AI/<project-name>.git
 cd <project-name>
 
 # Option 1: Docker (recommended)
@@ -134,7 +139,7 @@ docker compose up --build
 pip install -e ".[dev]"
 uvicorn src.<package>.main:app --reload --port 8000
 
-# Run tests
+# Run test suite
 pytest tests/ -v
 ```
 
