@@ -410,6 +410,7 @@ Production AI architectures implement unified gateways for rate-limiting, failov
 
 | Resource | Type | Focus | Link |
 |----------|------|-------|------|
+| **AI Weekly** | Newsletter | Models, agents, research, and policy ranked from expert signals | [Subscribe](https://aiweekly.co/) |
 | **Lil'Log** | Blog | Deep technical surveys on LLMs and generative models by Lilian Weng | [Blog](https://lilianweng.github.io/) |
 | **Eugene Yan** | Blog | Applied ML systems design, search, and production patterns | [Blog](https://eugeneyan.com/) |
 | **Latent Space** | Podcast / Newsletter | The leading technical podcast and community for AI engineers | [Listen](https://www.latent.space/) |
