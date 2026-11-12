@@ -333,6 +333,7 @@ Production AI architectures implement unified gateways for rate-limiting, failov
 | **DeepEval** | Unit testing framework for LLMs with 14+ production metrics | [GitHub](https://github.com/confident-ai/deepeval) |
 | **Promptfoo** | Automated testing, red-teaming, and regression testing for prompts | [Docs](https://www.promptfoo.dev/) |
 | **Inspect AI** | Framework for large language model evaluations and safety benchmarks by AISI | [GitHub](https://github.com/UKGovernmentBEIS/inspect_ai) |
+| **agentstats** | Run-aware analysis of repeated agent-benchmark outcomes, corrected comparisons and uncertainty tiers | [GitHub](https://github.com/RishabhPande/agentstats) |
 
 ---
 
